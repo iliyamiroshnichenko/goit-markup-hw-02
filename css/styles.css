@@ -1,0 +1,108 @@
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --secohd-bg-color: #f5f4fa;
+  --third-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+/* Цвет логотипа хэдера */
+.header-logo {
+  color: #000000;
+}
+/* Цвет части логотипа Web */
+.logo-web {
+  color: var(--accent-color);
+}
+/* Убрал флажки у элементов списков */
+.list {
+  list-style: none;
+}
+/* цвет текста основной навигации */
+.nav-main .link {
+  color: var(--main-text-color);
+}
+.nav-main .link.current {
+  color: var(--accent-color);
+}
+/* цвет текста основной навигации при акценте*/
+.nav-main .link:hover,
+.nav-main .link:focus {
+  color: var(--accent-color);
+}
+/* цвет текста инфо части навигации */
+.nav-info .link {
+  color: var(--second-text-color);
+}
+/* цвет текста инфо части навигации при акценте */
+.nav-info .link:hover,
+.nav-info .link:focus {
+  color: var(--accent-color);
+}
+/* фон героя */
+.hero {
+  background-color: var(--third-bg-color);
+}
+/* Заголовок героя */
+.hero-title {
+  color: var(--main-bg-color);
+}
+/* кнопка героя */
+.button.primary {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+}
+/* Текст секции преимущества */
+.feature .text {
+  color: var(--second-text-color);
+}
+/* Доп фон секции Наша команда  */
+.team {
+  background-color: var(--secohd-bg-color);
+}
+/* Текст секции Наша команда */
+.team-list .text {
+  color: var(--second-text-color);
+}
+/* фон футера */
+.footer {
+  background-color: var(--third-bg-color);
+}
+/* Цвет лого футера */
+.footer-logo {
+  color: var(--main-bg-color);
+}
+/* цвет адреса в футере */
+.footer-address {
+  color: var(--main-bg-color);
+}
+/* цвет почты и телефона футера */
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* акцент для почты и телефона в футере */
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+/* цвет текста в футере */
+.footer .text {
+  color: var(--main-bg-color);
+}
+/* цвет ссылок на соц сети в футере */
+.footer .link {
+  color: var(--main-bg-color);
+}
+/* акцент соц сетей в футере */
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
