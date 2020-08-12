@@ -11,6 +11,7 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
 }
+/* Основной CSS + страница Студия */
 /* Цвет логотипа хэдера */
 .header-logo {
   color: #000000;
@@ -97,30 +98,29 @@ body {
 .footer .text {
   color: var(--main-bg-color);
 }
-/* цвет ссылок на соц сети в футере */
-.footer .link {
-  color: var(--main-bg-color);
-}
-/* акцент соц сетей в футере */
-.footer .link:hover,
-.footer .link:focus {
-  color: var(--accent-color);
-}
 
 /* Страница Портфолио */
 
-/* Ссылки навигации */
+/* Кнопки*/
 .button.secondary {
   color: var(--main-text-color);
   background-color: var(--secohd-bg-color);
 }
-
+/* Акцент кнопок */
 .button.secondary:hover,
 .button.secondary:focus {
   color: var(--main-bg-color);
   background-color: var(--accent-color);
 }
-
+/* Цвет заголовков */
+.portfolio-list .title {
+  color: var(--main-text-color);
+}
+/*Цвет текста */
 .portfolio-list .text {
   color: var(--second-text-color);
+}
+
+.portfolio-list a {
+  text-decoration: none;
 }
