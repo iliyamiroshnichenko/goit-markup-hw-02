@@ -106,3 +106,21 @@ body {
 .footer .link:focus {
   color: var(--accent-color);
 }
+
+/* Страница Портфолио */
+
+/* Ссылки навигации */
+.button.secondary {
+  color: var(--main-text-color);
+  background-color: var(--secohd-bg-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list .text {
+  color: var(--second-text-color);
+}
