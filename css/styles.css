@@ -11,6 +11,8 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* Уберу подчеркивание у всех ссылок */
@@ -23,6 +25,12 @@ a {
 }
 
 /* страница Студия */
+/* задам общие настройки шрифта хэдера */
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 /* логотип хэдера */
 .header-logo {
   color: #000000;
@@ -30,6 +38,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* Цвет части логотипа Web */
 .logo-web {
@@ -38,10 +47,6 @@ a {
 /* текста основной навигации хэдера */
 .nav-main .link {
   color: var(--main-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
 }
 .nav-main .link.current {
   color: var(--accent-color);
@@ -52,16 +57,12 @@ a {
   color: var(--accent-color);
 }
 /* цвет текста инфо части навигации */
-.nav-info .link {
+.header-info .link {
   color: var(--second-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.02em;
 }
 /* цвет текста инфо части навигации при акценте */
-.nav-info .link:hover,
-.nav-info .link:focus {
+.header-info .link:hover,
+.header-info .link:focus {
   color: var(--accent-color);
 }
 /* фон героя */
@@ -97,8 +98,6 @@ a {
 /* Текст секции преимущества */
 .feature .text {
   color: var(--second-text-color);
-  font-size: 14px;
-  line-height: 1.71;
 }
 /* Заголовки секций */
 .section-title {
@@ -126,30 +125,30 @@ a {
 .footer {
   background-color: var(--third-bg-color);
 }
-/* Цвет лого футера */
+/* лого футера */
 .footer-logo {
   color: var(--main-bg-color);
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-/* цвет адреса в футере */
+/* уберем курсив в адресе футера */
 .footer-address {
+  font-style: normal;
+}
+/* Физический адрес в футере */
+.footer-address .text {
   color: var(--main-bg-color);
 }
-/* цвет почты и телефона футера */
-.footer-mail,
-.footer-tel {
+/* почта и телефон футера */
+.footer-address .link {
   color: rgba(255, 255, 255, 0.6);
 }
 /* акцент для почты и телефона в футере */
-.footer-mail:hover,
-.footer-mail:focus,
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-address .link:hover,
+.footer-address .link:focus {
   color: var(--accent-color);
-}
-/* цвет текста в футере */
-.footer .text {
-  color: var(--main-bg-color);
 }
 
 /* Страница Портфолио */
