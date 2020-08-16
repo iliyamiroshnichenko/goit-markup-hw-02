@@ -1,3 +1,4 @@
+/* CSS-переменные */
 :root {
   --main-text-color: #212121;
   --second-text-color: #757575;
@@ -40,14 +41,15 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* Цвет части логотипа Web */
+/* Голубой вет части логотипа Web */
 .logo-web {
   color: var(--accent-color);
 }
-/* текста основной навигации хэдера */
+/* текст основной навигации хэдера */
 .nav-main .link {
   color: var(--main-text-color);
 }
+/* Выделение активной страницы хэдера */
 .nav-main .link.current {
   color: var(--accent-color);
 }
@@ -158,6 +160,10 @@ a {
   color: var(--main-text-color);
   background-color: var(--secohd-bg-color);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 /* Акцент кнопок */
 .button.secondary:hover,
@@ -168,8 +174,13 @@ a {
 /* Цвет заголовков */
 .portfolio-list .title {
   color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 /*Цвет текста */
 .portfolio-list .text {
   color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
