@@ -41,16 +41,14 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* Голубой вет части логотипа Web */
-.logo-web {
-  color: var(--accent-color);
-}
 /* текст основной навигации хэдера */
 .nav-main .link {
-  color: var(--main-text-color);
+  color: inherit;
 }
-/* Выделение активной страницы хэдера */
-.nav-main .link.current {
+/* Выделение активной страницы хэдера + Web в логотипе */
+.nav-main .link.current,
+.header-logo .current,
+.footer-logo .current {
   color: var(--accent-color);
 }
 /* цвет текста основной навигации при акценте*/
